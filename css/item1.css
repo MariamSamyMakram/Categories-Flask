@@ -1,0 +1,71 @@
+.s1 {
+  background-color: #3d1667;
+  height: 113px;
+}
+.s1 h1 {
+  color: #fff;
+  font-size: 46px;
+  position: relative;
+  top: 33px;
+}
+.s1 button {
+  font-size: 22px;
+  float: right;
+  position: relative;
+  bottom: 18px;
+  width: 12%;
+  height: 42px;
+  border-radius: 19px;
+  background-color: #fb0404;
+  border-color: #fb0404;
+  color: #fff;
+}
+
+.s2 {
+  background-color: #ddd;
+  height: 550px;
+}
+.s2 table{
+  width: 87%;
+    height: 292px;
+    text-align: center;
+    position: relative;
+    top: 104px;
+    left: 7%;
+    background: #fff;
+    box-shadow: 1px 5px 50px;
+}
+.s2 .p2 div {
+  width: 81%;
+  background-color: #fff;
+  position: relative;
+  top: 73px;
+  left: 11%;
+  text-align: center;
+  box-shadow: 1px 5px 50px;
+}
+.s2 .t {
+  font-size: 38px;
+  color: #3d1667;
+}
+.s2 td {
+  font-size: 34px;
+  color: #fb0404;
+}
+.s2 td a {
+  color: #fb0404;
+  text-decoration: none;
+}
+.s2 td a:hover {
+  color: #fb0404;
+  text-decoration: none;
+}
+.s2 .p2 div {
+  height: 300px;
+}
+.s2 .p2 div h1 {
+  color: #3d1667;
+  font-size: 38px;
+}
+
+/*# sourceMappingURL=item1.css.map */

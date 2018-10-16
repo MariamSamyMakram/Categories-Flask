@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/item2.css">
+
+</head>
+<body>
+
+<section class="s1">
+    <div class="container">
+        <h1>Catalog App</h1>
+        <button>Logout</button>
+    </div>
+</section>
+<section class="s2">
+    <div class="container P1">
+        <button>Add Item</button>
+        <table>
+            <tr>
+                <th class="t">Categories</th>
+                <th class="t">Lastest Items</th>
+            </tr>
+            <tr>
+                <td><a href="#">Jill</a></td>
+                <td><a href="#">Smith</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Eve</a></td>
+                <td><a href="#">Jackson</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container p2">
+        <div>
+            <h1>ghjjkjlks</h1>
+            <p>hjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkuuuuuuuuuuuuuuuuuuuuuuooooooooooooooooooooppppppppppppppppp</p>
+            <span><a href="#"data-toggle="modal" data-target="#myModal1">Edit</a>|<a href="#"data-toggle="modal" data-target="#myModal2">Delete</a></span>
+        </div>
+    </div>
+</section>
+
+<!------------model 1--------------------------------->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Item</h4>
+            </div>
+            <div class="modal-body">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Title:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Title" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Description:</label>
+                        <input type="text" class="form-control" id="pwd" placeholder="Enter Description" name="pwd">
+                    </div>
+                    <label for="sel1">categories list:</label>
+                    <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------model 2--------------------->
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Delete Item</h4>
+            </div>
+            <div class="modal-body">
+                <p>Are you went to delete item ?</p>
+                <button type="submit" class="btn btn-default">Ok</button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

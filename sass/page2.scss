@@ -1,0 +1,86 @@
+$color1: #3d1667;
+$color2: #ddd;
+$color3: #fff;
+$color4: #fb0404;
+$font1:38px;
+%table
+{
+  width: 81%;
+  background-color: $color3;
+  position: relative;
+  top: 73px;
+  left: 11%;
+  text-align: center;
+}
+%button
+{
+  font-size: 22px;
+  width: 12%;
+  height: 42px;
+  border-radius: 19px;
+  background-color: $color4;
+  border-color: $color4;
+  color: $color3;
+}
+%a
+{
+  color: $color4;
+  text-decoration: none;
+}
+.s1
+{
+  background-color:$color1;
+  height: 113px;
+  h1
+  {
+    color:$color3;
+    font-size: 46px;
+    position: relative;
+    top: 33px;
+  }
+  button
+  {
+    @extend %button;
+    float: right;
+    position: relative;
+    bottom: 18px;
+  }
+}
+.s2
+{
+  background-color:$color2;
+  height: 550px;
+  /*.P1{display: none;}*/
+  table{@extend %table;}
+  button{@extend %button;    position: relative;  left: 11%;  top: 69px;}
+  .t{font-size:$font1;color: $color1;}
+  td{
+    font-size: 34px;
+    color:$color4;
+    a
+    {
+      @extend %a;
+    }
+    a:hover {
+      @extend %a;
+    }
+  }
+  .p2
+  {
+    display: none;
+    div
+    {
+      @extend %table;
+      height: 300px;
+      h1
+      {
+        color:$color1;
+        font-size: $font1;
+      }
+      a{@extend %a;}
+    }
+  }
+
+
+}
+
