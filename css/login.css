@@ -18,7 +18,11 @@ form{
     color: #fff;
     font-size: 33px;
     position: relative;
-    top: 107px;
+    top: 130px;
     left: 35%;
     width: 39%;
+}
+select{
+        width: 80%;
+    height: 45px;
 }
