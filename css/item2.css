@@ -12,8 +12,8 @@
   width: 12%;
   height: 42px;
   border-radius: 19px;
-  background-color: #fb0404;
-  border-color: #fb0404;
+  background-color:#565555;
+  border-color: #565555;
   color: #fff;
 }
 
@@ -21,9 +21,19 @@
   color: #fb0404;
   text-decoration: none;
 }
+.s2 table{
+  width: 87%;
+    height: 292px;
+    text-align: center;
+    position: relative;
+    top: 104px;
+    left: 7%;
+    background: #fff;
+    box-shadow: 1px 5px 50px;
+}
 
 .s1 {
-  background-color: #3d1667;
+  background-color:#166718;
   height: 113px;
 }
 .s1 h1 {
